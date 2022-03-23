@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "글자 수 세기",
+  "description": "글자수 세기 확장 프로그램",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

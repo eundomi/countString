@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        width: 400px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+      textarea {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        font-size: 1rem;
+        resize: none;
+      }
+      .result-container {
+        margin: 4px;
+      }
+      .result {
+        text-align: right;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>글자수 세기</h2>
+    <textarea id="text" placeholder="텍스트를 입력하세요."></textarea>
+    <div class="container">
+      <div id="include" class="result">공백 포함 0 자</div>
+      <div id="exclude" class="result">공백 제외 0 자</div>
+    </div>
+    <div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
